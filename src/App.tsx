@@ -12,7 +12,9 @@ function App() {
     ['repoData'],
     () =>
       axios
-        .get('http://localhost:8082/tweets')
+        .get(
+          'http://139-162-206-168.ip.linodeusercontent.com/api/tweets'
+        )
         .then((res) => res.data)
   );
   const DATA: TweetPostProps[] = data || [];

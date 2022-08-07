@@ -24,8 +24,7 @@ body {
   border-right: 1px solid var(--twitter-background);
   min-width: fit-content;
   overflow-y: scroll;
-
-  width: 70%;
+  width: 60%;
 }
 
 .feed__header {
